@@ -87,6 +87,11 @@
         "provider": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅"
       },
       {
+        "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
+        "address": "source-mainnet-seed.autostake.com:27446",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
         "id": "8fb118f995c146357b67798e9bdd650d0c4161ea",
         "address": "seed.source.validatus.com:3000",
         "provider": "Validatus"
@@ -163,6 +168,10 @@
         "provider": "Nodeist"
       },
       {
+        "address": "https://source-mainnet-rpc.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
         "address": "https://source-mainnet-rpc.itrocket.net:443",
         "provider": "ITRocket"
       },
@@ -193,6 +202,10 @@
       {
         "address": "https://rpc.source.roomit.xyz/",
         "provider": "RoomIT"
+      },
+      {
+        "address": "https://rpc.source.posthuman.digital",
+        "provider": "posthuman"
       }
     ],
     "rest": [
@@ -211,6 +224,10 @@
       {
         "address": "https://source-mainnet-api.itrocket.net:443",
         "provider": "ITRocket"
+      },
+      {
+        "address": "https://source-mainnet-lcd.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
       },
       {
         "address": "https://source.api.moonbridge.team/",
@@ -243,6 +260,10 @@
       {
         "address": "https://api.source.roomit.xyz",
         "provider": "RoomIT"
+      },
+      {
+        "address": "https://rest.source.posthuman.digital",
+        "provider": "posthuman"
       }
     ],
     "grpc": [
@@ -265,6 +286,10 @@
       {
         "address": "https://grpc-source.sr20de.xyz:443",
         "provider": "Sr20de"
+      },
+      {
+        "address": "source-mainnet-grpc.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
       },
       {
         "address": "source-grpc.stake-town.com:443",
@@ -333,6 +358,12 @@
       "kind": "RoomIT",
       "url": "https://explorer.tendermint.roomit.xyz/source-mainnet/",
       "tx_page": "https://explorer.tendermint.roomit.xyz/source-mainnet/tx/${txHash}"
+    },
+    {
+      "kind": "posthuman",
+      "url": "https://explorer.posthuman.digital/source",
+      "tx_page": "https://explorer.posthuman.digital/source/tx/${txHash}",
+      "account_page": "https://explorer.posthuman.digital/source/account/${accountAddress}"
     }
   ],
   "images": [
